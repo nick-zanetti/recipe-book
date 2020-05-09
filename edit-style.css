@@ -1,0 +1,114 @@
+body{
+  text-align:center;
+  
+  
+}
+
+#container{
+  background-image: url(foodiesfeed.com_cherry-tomatoes-macro.jpg);
+  background-size: cover;
+  height:1000px;
+  padding-top: 5px;
+}
+
+a{
+  display:block;
+  text-align: left;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+#edit-title{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  height: 1em;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  border:none;
+  color: white;
+  background: rgba(255,255,255,.0);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#edit-instructions{
+  display: block;
+  margin: 0 auto;
+  text-align: left;
+  width: 75%;
+  height: 40%; 
+  font-family: 'Sanchez', serif;
+  font-size: 1em;
+  border:solid;
+  color: white;
+  background: rgba(255,255,255,.0);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#ingredients{
+  display: block;
+  margin-bottom: 2em;
+ 
+}
+
+.remove-ingredient-button{
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: .75em;
+  background: rgba(255,255,255,.0);
+  cursor: pointer;
+  border-style: none;
+  text-align: right;
+  margin-left: 5px;
+}
+.individual-ingredient{
+  text-align: center;
+  height: 1em;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  border:none;
+  color: white;
+  background: rgba(255,255,255,.0);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#add-ingredient{
+  display: block;
+  
+}
+
+#add-ingredient-text{
+  height: 1em;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.5em;
+  border-style: solid;
+  color: white;
+  background: rgba(255,255,255,.0);
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#add-ingredient-button{
+  width: 6em;
+  font-size: 1em;
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  background: rgba(255,255,255,.6);
+  cursor: pointer;
+}
+
+#delete-button{
+  width: 9em;
+  font-size: 1em;
+  font-family: 'Permanent Marker', cursive;
+  background-color: white;
+  background: rgba(255,255,255,.6);
+  cursor: pointer;
+}

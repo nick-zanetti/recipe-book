@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Sanchez&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="edit-style.css">
+  <title>Edit Recipe</title>
+</head>
+<body>
+  <div id="container">
+  <a href="index.html">Home</a> 
+  <input id="edit-title" type="text" placeholder="Recipe title...">
+  <textarea id="edit-instructions" placeholder="Instructions..."></textarea>
+  <div id="ingredients"></div>
+  <form id="add-ingredient">
+      <input id="add-ingredient-text" type="text" placeholder="Add Ingredient...">
+      <button id="add-ingredient-button">Add</button>
+  </form>
+  <button id="delete-button">Delete Recipe</button>
+  <script src="uuidv4.js"></script>
+  <script src="recipe-functions.js"></script>
+  <script src="recipe-edit.js"></script>
+  </div>
+</body>
+</html>
